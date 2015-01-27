@@ -14,8 +14,8 @@ gem 'devise', '~> 3.4.0'
 
 
 group :production do
-     gem 'pg'
      gem 'rails_12factor'
+     gem 'pg'
 end
 group :development, :test do
   gem 'byebug'
